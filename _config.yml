@@ -1,3 +1,8 @@
 author: Marco Castelluccio
 email: mcastelluccio@mozilla.com
 theme: minima
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
