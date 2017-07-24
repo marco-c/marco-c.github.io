@@ -6,6 +6,9 @@ theme: minima
 
 github_username: marco-c
 
+gems:
+  - jekyll-feed
+
 exclude:
   - Gemfile
   - Gemfile.lock
