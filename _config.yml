@@ -1,7 +1,10 @@
 title: Marco Castelluccio's Blog
 author: Marco Castelluccio
 email: mcastelluccio@mozilla.com
+
 theme: minima
+
+github_username: marco-c
 
 exclude:
   - Gemfile
