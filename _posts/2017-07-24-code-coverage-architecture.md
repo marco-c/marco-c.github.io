@@ -55,10 +55,10 @@ We are interested in collecting code coverage information per test suite. This i
 
 Both codecov.io and coveralls.io support receiving multiple reports for a single build and showing the information both in separation and in aggregation ("flags" on codecov.io, "jobs" on coveralls.io). Unfortunately, both services are currently choking when we present them with too much data (our reports are huge, given that our project is huge, and if we send one per test suite instead of one per build... things blow).
 
-### Coverage per Changeset
-Understanding whether the code introduced by a patch is covered by tests or not is very valuable for risk assessment. As I said earlier, we are currently only collecting code coverage information for each mozilla-central push, which means around 50-100 commits (e.g. [https://hg.mozilla.org/mozilla-central/pushloghtml?changeset=07484bfdb96b](https://hg.mozilla.org/mozilla-central/pushloghtml?changeset=07484bfdb96b)). This means we don't have coverage information for each commit.
+### Coverage per Push
+Understanding whether the code introduced by a set of patches is covered by tests or not is very valuable for risk assessment. As I said earlier, we are currently only collecting code coverage information for each mozilla-central push, which means around 50-100 commits (e.g. [https://hg.mozilla.org/mozilla-central/pushloghtml?changeset=07484bfdb96b](https://hg.mozilla.org/mozilla-central/pushloghtml?changeset=07484bfdb96b)), instead of for each mozilla-inbound push (often only one commit). This means we don't have coverage information for each set of patches pushed by developers.
 
-Given that most commits will not change the same lines in the same files, we believe we can infer the coverage information for intermediate commits from the coverage information of the last commit.
+Given that most mozilla-inbound pushes in the same mozilla-central push will not change the same lines in the same files, we believe we can infer the coverage information for intermediate commits from the coverage information of the last commit.
 
 ### Windows and macOS Coverage
 We are currently only collecting coverage information for Linux 64 bit. We are looking into [expanding it to Windows](https://bugzilla.mozilla.org/show_bug.cgi?id=1381163) and macOS. Help is appreciated!
