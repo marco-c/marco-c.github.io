@@ -1,5 +1,6 @@
 ---
 title: Overview of the Code Coverage Architecture at Mozilla
+tags: [mozilla, code-coverage]
 ---
 
 Firefox is a huge project, consisting of around 20K source files and 3M lines of code (if you only consider the Linux part!), supporting officially four operating systems, and being written in multiple programming languages (C/C++/JavaScript/Rust). We have around 200 commits landing per day in the mozilla-central repository, with developers committing even more often to the try repository. Usually, code coverage analysis is performed on a single language on small/medium size projects. Therefore, collecting code coverage information for such a project is not an easy task.
