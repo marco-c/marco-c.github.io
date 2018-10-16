@@ -5,6 +5,7 @@ email: mcastelluccio@mozilla.com
 theme: minima
 
 github_username: marco-c
+rss: rss
 
 gems:
   - jekyll-feed
