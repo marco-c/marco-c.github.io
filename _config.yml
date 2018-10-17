@@ -7,7 +7,7 @@ theme: minima
 github_username: marco-c
 rss: rss
 
-gems:
+plugins:
   - jekyll-feed
 
 exclude:
