@@ -15,8 +15,8 @@ To summarize, the features of the extension currently are:
 
 Here's a screenshot from the extension in action:
 <figure>
-  <img src="/assets/phabricator-mozsearch-addon.png" alt="Searchfox in Phabricator" />
-  <figcaption><b>Figure 1</b>: Searchfox in Phabricator.</figcaption>
+  <img src="/assets/phabricator-mozsearch-addon.png" alt="Screenshot of Searchfox in Phabricator" />
+  <figcaption><b>Figure 1</b>: Screenshot of Searchfox in Phabricator.</figcaption>
 </figure>
 
 I'm planning to add support for sticky highlighting and blame information (when hovering on the line number on the left side). 
