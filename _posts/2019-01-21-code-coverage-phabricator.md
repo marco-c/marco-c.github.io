@@ -8,7 +8,9 @@ We have recently implemented a solution to integrate code coverage results into 
 Coverage information is uploaded either automatically for revisions after they are landed in mozilla-central (for example for release managers when looking at uplift requests), or on-demand for in-progress revisions.
 
 For revisions under review, in order to upload coverage you just need to trigger a try push containing code coverage builds and tests, e.g. by using:
-$ mach try fuzzy \-\-full
+<pre style="background-color:black;color:white;">
+$ mach try fuzzy --full
+</pre>
 and selecting the relevant ccov builds and test suites. In the future, we will also likely automatically trigger coverage try builds for revisions we deem to be risky, alongside the on-demand option.
 
 Here is an example of a [try build](https://treeherder.mozilla.org/#/jobs?repo=try&revision=38213b49dc00cd108dfa9a246045ed677c34de91) which produced the coverage information for [my revision](https://phabricator.services.mozilla.com/D14758):
