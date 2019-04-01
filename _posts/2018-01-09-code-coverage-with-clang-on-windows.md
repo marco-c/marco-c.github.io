@@ -40,6 +40,8 @@ In the directory where main.cpp is, both the executable file of your program and
 09/01/2018  16:21            88.372 main.gcno
 </pre>
 
+N.B.: You might have to manually link to the Clang clang_rt.profile-YOUR_ARCH.lib ([https://bugs.llvm.org/show_bug.cgi?id=40877](https://bugs.llvm.org/show_bug.cgi?id=40877)).
+
 ### Run
 Now, the instrumented executable can be executed. A new file with the extension 'gcda' will be generated. It contains the coverage counters associated with the 'gcno' file (how many times a line was executed, how many times a branch was taken, and so on).
 
