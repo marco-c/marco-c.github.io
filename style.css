@@ -1,0 +1,18 @@
+.external-url::before,
+.external-url::after {
+  content: '';
+  display: inline-block;
+  height: 0.8em;
+  width: 0.8em;
+}
+
+.external-url::before {
+  margin-right: 0.25em;
+  background-size: cover;
+}
+
+.external-url::after {
+  background: url('/assets/link.svg') no-repeat;
+  background-size: cover;
+  margin-left: 0.25em;
+}
