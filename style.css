@@ -16,3 +16,10 @@
   background-size: cover;
   margin-left: 0.25em;
 }
+
+.mozilla-hacks:before {
+  height: 16px;
+  width: 16px;
+  background: url("/assets/hacks.ico") no-repeat;
+  background-size: cover;
+}
