@@ -88,7 +88,7 @@ At this point, we just need a way to parse the profraw file and the associated i
 ### Parse with grcov
 [grcov](https://github.com/mozilla/grcov) can be downloaded from GitHub ([from the Releases page](https://github.com/mozilla/grcov/releases)).
 
-Simply execute grcov in the root of your repository, with the `--binary-path` option pointing to your binary. The `-t` option allows you to specify the output format:
+Simply execute grcov in the root of your repository, with the `--binary-path` option pointing to the directory containing your binaries (e.g. `./target/debug`). The `-t` option allows you to specify the output format:
 - "html" for a HTML report;
 - "lcov" for the LCOV format, which you can then translate to a HTML report using genhtml;
 - "coveralls" for a JSON format compatible with Coveralls/Codecov;
@@ -97,7 +97,7 @@ There are [other formats](https://github.com/mozilla/grcov#alternative-reports) 
 
 Example:
 <pre style="background-color:black;color:white;">
-grcov . --binary-path PATH_TO_YOUR_BINARY -s . -t html --branch --ignore-not-existing -o ./coverage/
+grcov . --binary-path PATH_TO_YOUR_BINARIES_DIRECTORY -s . -t html --branch --ignore-not-existing -o ./coverage/
 </pre>
 
 This is the output:
@@ -113,7 +113,7 @@ This would be the output with gcov-based coverage:
 
 You can also run grcov outside of your repository, you just need to pass the path to the directory where the profraw files are and the directory where the source is (normally they are the same, but if you have a complex CI setup like we have at Mozilla, they might be totally separate):
 <pre style="background-color:black;color:white;">
-grcov PATHS_TO_PROFRAW_DIRECTORIES --binary-path PATH_TO_YOUR_BINARY -s PATH_TO_YOUR_SOURCE_CODE -t html --branch --ignore-not-existing -o ./coverage/
+grcov PATHS_TO_PROFRAW_DIRECTORIES --binary-path PATH_TO_YOUR_BINARIES_DIRECTORY -s PATH_TO_YOUR_SOURCE_CODE -t html --branch --ignore-not-existing -o ./coverage/
 </pre>
 
 grcov has other options too, simply run it with no parameters to list them.
