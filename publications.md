@@ -30,7 +30,7 @@ title: Publications
   <span style="color:grey;">M. Castelluccio, L. An, F. Khomh  
   33rd IEEE International Conference on Software Maintenance and Evolution (ICSME), 2017</span>
 
-- **Automatically analyzing groups of crashes for finding correlations**  
+- [**Automatically analyzing groups of crashes for finding correlations**](https://dl.acm.org/doi/abs/10.1145/3106237.3106306)  
   <span style="color:grey;">M. Castelluccio, C. Sansone, L. Verdoliva, G. Poggi  
   11th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE), 2017</span>
 
