@@ -2,6 +2,10 @@
 title: Publications
 ---
 
+- [**rust-code-analysis: A Rust library to analyze and extract maintainability information from source codes**](https://www.sciencedirect.com/science/article/pii/S2352711020303484)  
+  <span style="color:grey;">L. Ardito, L. Barbato, M. Castelluccio, R. Coppola, C. Denizet, S. Ledru, M. Valsesia  
+  SoftwareX, 2020</span>
+
 - <img src="/assets/trophy.png" alt="Award" width="16" /> [**Why Are Some Bugs Non-Reproducible? An Empirical Investigation using Data Fusion**](/publications/non_reproducibility-icsme2020.pdf)  
   <span style="color:grey;">M. M. Rahman, F. Khomh and M. Castelluccio  
   36th ACM/IEEE International Conference on Maintenance and Software Evolution (ICSME), 2020</span>
