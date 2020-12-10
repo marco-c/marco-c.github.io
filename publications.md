@@ -18,7 +18,7 @@ title: Publications
   <span style="color:grey;">M. Eck, F. Palomba, M. Castelluccio, A. Bacchelli  
   27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), 2019</span>
 
-- **Why Did This Reviewed Code Crash? An Empirical Study of Mozilla Firefox**  
+- [**Why Did This Reviewed Code Crash? An Empirical Study of Mozilla Firefox**](https://ieeexplore.ieee.org/abstract/document/8719430)  
   <span style="color:grey;">L. An, F. Khomh, S. Mcintosh, M. Castelluccio  
   25th Asia-Pacific Software Engineering Conference (APSEC), 2018</span>
 
