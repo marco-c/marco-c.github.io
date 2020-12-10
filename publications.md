@@ -34,7 +34,7 @@ title: Publications
   <span style="color:grey;">M. Castelluccio, C. Sansone, L. Verdoliva, G. Poggi  
   11th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE), 2017</span>
 
-- **Training convolutional neural networks for semantic classification of remote sensing imagery**  
+- [**Training convolutional neural networks for semantic classification of remote sensing imagery**](https://ieeexplore.ieee.org/abstract/document/7924535)  
   <span style="color:grey;">M. Castelluccio, G. Poggi, C. Sansone, L. Verdoliva  
   Joint Urban Remote Sensing Event (JURSE), 2017</span>
 
