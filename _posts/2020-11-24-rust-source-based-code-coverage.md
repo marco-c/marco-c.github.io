@@ -45,7 +45,7 @@ In order to make Rust generate an instrumented binary, we need to use the `-Zins
 export RUSTFLAGS="-Zinstrument-coverage"
 </pre>
 
-Now, build with `clang build`.
+Now, build with `cargo build`.
 
 The compiled instrumented binary will appear under target/debug/:
 <pre style="background-color:black;color:white;">
