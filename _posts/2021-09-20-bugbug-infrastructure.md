@@ -20,7 +20,7 @@ The overall infrastructure can be seen in this flowchart, where the nodes repres
 
 ### Continuous Integration and First Stage (Training Pipeline) Deployment
 
-Every pull request and push to the repository triggers [a pipeline of Taskcluster]() tasks to:
+Every pull request and push to the repository triggers [a pipeline of Taskcluster](https://github.com/mozilla/bugbug/blob/6e14270/.taskcluster.yml) tasks to:
 - run tests for the library and its linked HTTP service;
 - run static analysis and linting;
 - build Python packages;
@@ -37,7 +37,7 @@ After a code release, the training pipeline which performs ML training is update
 
 ### Continuous Training and Second Stage (ML Model Services) Deployment
 
-The [training pipeline]() runs on Taskcluster as a hook that is either triggered manually or on a cron.
+The [training pipeline](https://github.com/mozilla/bugbug/blob/cb23f63/infra/data-pipeline.yml) runs on Taskcluster as a hook that is either triggered manually or on a cron.
 
 The training pipeline consists of many tasks that:
 - retrieve data from multiple sources (version control system, bug tracking systems, Firefox CI, etc.);
@@ -53,7 +53,7 @@ After a run of the training pipeline, the HTTP service and all the production pi
 
 ### Production pipelines
 
-There are multiple production pipelines ([here's an example]()), that serve different objectives, all running on Taskcluster and triggered either on cron or by pulse messages from other services.
+There are multiple production pipelines ([here's an example](https://github.com/mozilla/bugbug/blob/2cad435/infra/landings-pipeline.yml)), that serve different objectives, all running on Taskcluster and triggered either on cron or by pulse messages from other services.
 
 ### Frontend
 
