@@ -2,6 +2,22 @@
 title: Publications
 ---
 
+- [**Mind the Gap: What Working With Developers on Fuzz Tests Taught Us About Coverage Gaps**](https://azaidman.github.io/publications/brandtICSE2024.pdf)  
+  <span style="color:grey;">Carolin Brandt, Marco Castelluccio, Christian Holler, Jason Kratzer, Andy Zaidman, Alberto Bacchelli  
+  46th International Conference on Software Engineering - Software Engineering In Practice (ICSE - SEIP),	2024</span>
+
+- [**Predicting the Impact of Crashes Across Release Channels**](https://arxiv.org/pdf/2401.13667)  
+  <span style="color:grey;">Suhaib Mujahid, Diego Elias Costa, Marco Castelluccio  
+  21st IEEE/ACM International Conference on Mining Software Repositories (MSR), 2024</span>
+
+- [**SZZ in the time of pull requests**](https://arxiv.org/pdf/2209.03311)  
+  <span style="color:grey;">Fernando Petrulio, David Ackermann, Enrico Fregnan, Gül Calikli, Marco Castelluccio, Sylvestre Ledru, Calixte Denizet, Emma Humphries, Alberto Bacchelli  
+  arXiv, 2022</span>
+
+- [**Works for me! cannot reproduce–a large scale empirical study of non-reproducible bugs**](https://link.springer.com/article/10.1007/s10664-022-10153-2)  
+  <span style="color:grey;">Mohammad M. Rahman, Foutse Khomh, Marco Castelluccio  
+  Empirical Software Engineering (EMSE), 2022</span>
+
 - [**rust-code-analysis: A Rust library to analyze and extract maintainability information from source codes**](https://www.sciencedirect.com/science/article/pii/S2352711020303484)  
   <span style="color:grey;">L. Ardito, L. Barbato, M. Castelluccio, R. Coppola, C. Denizet, S. Ledru, M. Valsesia  
   SoftwareX, 2020</span>
