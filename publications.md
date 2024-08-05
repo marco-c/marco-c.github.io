@@ -2,6 +2,10 @@
 title: Publications
 ---
 
+- [**Unveiling the Potential of a Conversational Agent in Developer Support: Insights from Mozilla’s PDF.js Project**](https://dl.acm.org/doi/abs/10.1145/3664646.3664758)  
+  <span style="color:grey;">João Correia, Morgan C Nicholson, Daniel Coutinho, Caio Barbosa, Marco Castelluccio, Marco Gerosa, Alessandro Garcia, Igor Steinmacher  
+  1st ACM International Conference on AI-Powered Software (AIware), 2024</span>
+
 - [**Mind the Gap: What Working With Developers on Fuzz Tests Taught Us About Coverage Gaps**](https://azaidman.github.io/publications/brandtICSE2024.pdf)  
   <span style="color:grey;">Carolin Brandt, Marco Castelluccio, Christian Holler, Jason Kratzer, Andy Zaidman, Alberto Bacchelli  
   46th International Conference on Software Engineering - Software Engineering In Practice (ICSE - SEIP),	2024</span>
