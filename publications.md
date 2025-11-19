@@ -2,6 +2,26 @@
 title: Publications
 ---
 
+- [**A Comparison of Conversational Models and Humans in Answering Technical Questions: the Firefox Case**](https://arxiv.org/pdf/2510.21933)  
+  <span style="color:grey;">Joao Correia, Daniel Coutinho, Marco Castelluccio, Caio Barbosa, Rafael de Mello, Anita Sarma, Alessandro Garcia, Marco Gerosa, Igor Steinmacher  
+  48th International Conference on Software Engineering (ICSE),	2026</span>
+
+- [**Automated Generation of Issue-Reproducing Tests by Combining LLMs and Search-Based Testing**](https://arxiv.org/pdf/2509.01616)  
+  <span style="color:grey;">Konstantinos Kitsios, Marco Castelluccio, Alberto Bacchelli  
+  40th IEEE/ACM International Conference on Automated Software Engineering (ASE), 2025</span>
+
+- [**Using LLMs to Bridge the Gaps in QA Test Plans at Firefox**](https://ieeexplore.ieee.org/document/11205171)  
+  <span style="color:grey;">John Pangas, Suhaib Mujahid, Ahmad Abdellatif, Marco Castelluccio  
+  IEEE Software (special edition: AI Ware in the FM Era), 2025</span>
+
+- [**A Dataset of Performance Measurements and Alerts from Mozilla (Data Artifact)**](https://dl.acm.org/doi/10.1145/3680256.3721973)  
+  <span style="color:grey;">Mohamed Bilel Besbes, Diego Elias Costa, Suhaib Mujahid, Gregory Mierzwinski, Marco Castelluccio  
+  16th ACM/SPEC International Conference on Performance Engineering, 2025</span>
+
+- [**Impact of LLM-based review comment generation in practice: A mixed open-/closed-source user study**](https://arxiv.org/pdf/2411.07091)  
+  <span style="color:grey;">Doriane Olewicki, Leuson Da Silva, Suhaib Mujahid, Arezou Amini, Benjamin Mah, Marco Castelluccio, Sarra Habchi, Foutse Khomh, Bram Adams  
+  arXiv, 2024</span>
+
 - [**Unveiling the Potential of a Conversational Agent in Developer Support: Insights from Mozilla’s PDF.js Project**](https://dl.acm.org/doi/abs/10.1145/3664646.3664758)  
   <span style="color:grey;">João Correia, Morgan C Nicholson, Daniel Coutinho, Caio Barbosa, Marco Castelluccio, Marco Gerosa, Alessandro Garcia, Igor Steinmacher  
   1st ACM International Conference on AI-Powered Software (AIware), 2024</span>
