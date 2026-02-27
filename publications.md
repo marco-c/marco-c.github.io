@@ -2,6 +2,18 @@
 title: Publications
 ---
 
+- [**Group versus Individual Review Requests: Tradeoffs in Speed and Quality at Mozilla Firefox**](https://arxiv.org/pdf/2601.01514)  
+  <span style="color:grey;">Matej Kucera, Marco Castelluccio, Daniel Feitosa, Ayushi Rastogi  
+  48th International Conference on Software Engineering - Software Engineering In Practice (ICSE - SEIP),	2026</span>
+
+- [**XBIDetective: Leveraging Vision Language Models for Identifying Cross-Browser Visual Inconsistencies**](https://arxiv.org/pdf/2512.15804)  
+  <span style="color:grey;">Balreet Grewal, James Graham, Jeff Muizelaar, Jan Honza Odvarko, Suhaib Mujahid, Marco Castelluccio, Cor-Paul Bezemer  
+  48th International Conference on Software Engineering - Software Engineering In Practice (ICSE - SEIP),	2026</span>
+
+- [**Impact of an LLM-based Review Assistant in Practice: A Mixed Open-/Closed-source Case Study**](https://ieeexplore.ieee.org/abstract/document/11393512)  
+  <span style="color:grey;">Doriane Olewicki, Leuson Da Silva, Oussama Ben Sghaier, Suhaib Mujahid, Arezou Amini, Benjamin Mah, Marco Castelluccio, Sarra Habchi, Foutse Khomh, Bram Adams  
+  IEEE Transactions on Software Engineering (TSE), 2026</span>
+
 - [**A Comparison of Conversational Models and Humans in Answering Technical Questions: the Firefox Case**](https://arxiv.org/pdf/2510.21933)  
   <span style="color:grey;">Joao Correia, Daniel Coutinho, Marco Castelluccio, Caio Barbosa, Rafael de Mello, Anita Sarma, Alessandro Garcia, Marco Gerosa, Igor Steinmacher  
   48th International Conference on Software Engineering (ICSE),	2026</span>
